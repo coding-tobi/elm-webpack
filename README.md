@@ -20,4 +20,4 @@ A minimal starter project for elm with webpack.
    ```
    npm run build
    ```
-2. Take a loot at the output folder "./dist"!
+2. Take a look at the output folder "./dist"!
