@@ -1,0 +1,20 @@
+{
+  "name": "elm-webpack",
+  "version": "1.0.0",
+  "description": "Minimal starter project for elm with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "Tobias Schmidt",
+  "license": "MIT",
+  "devDependencies": {
+    "elm-webpack-loader": "^7.0.1",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
